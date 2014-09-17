@@ -1,4 +1,8 @@
-## The functions below
+## The functions below work together to solve for the inverse of a square,
+## invertible matrix. The makeCacheMatrix function stores the inverse in its
+## environment once it has been calculated by the cacheSolve function, so that
+## the cacheSolve function can check to see if it is already defined there 
+## before calculating it again.
 
 ## the makeCacheMatrix function takes a square, invertible matrix as an argument
 ## x and returns a list of four elements: the functions set, get, setInv, and
